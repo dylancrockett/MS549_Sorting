@@ -77,9 +77,6 @@ namespace sorting_testing {
 			delete [] arr;
 		}
 
-		sizes.push_back(1000000);
-		sizes.push_back(10000000);
-
 		for (auto size : sizes) {
 			int* arr = get_dataset(size);
 
